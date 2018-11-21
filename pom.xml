@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mrathena</groupId>
+	<groupId>com.zjf</groupId>
 	<artifactId>base.maven</artifactId>
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
@@ -456,7 +456,7 @@
 									<!-- 普通项目写这个就可以了, 需要自己覆盖配置 -->
 									<transformer
 										implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-										<mainClass>com.mrathena.itswr.Test</mainClass>
+										<mainClass>com.zjf.itswr.Test</mainClass>
 									</transformer>
 									<!-- spring项目还需要写这两个 -->
 									<transformer
